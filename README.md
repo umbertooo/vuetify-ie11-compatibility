@@ -25,3 +25,12 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## What's the problem?
+
+### expected layout
+(as it is shown in Chrome and Firefox)
+![expected-layout](https://github.com/umbertooo/vuetify-ie11-compatibility/raw/master/expected-layout.png)
+
+### actual layout (IE 11)
+![actual-layout](actual-layout-in-ie11.png)
