@@ -24,15 +24,6 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-
 .header {
   border-bottom: 2px solid black;
   background-color: #ccc;
@@ -46,6 +37,7 @@ export default {
 }
 
 .application--wrap {
-  min-height: inherit;
+  /* this is the original css style from vuetify */
+  min-height: 100vh;
 }
 </style>
