@@ -4,7 +4,11 @@
       <v-flex xs8>
         <v-card>
           <v-card-text>
-            <v-date-picker v-model="picker" :landscape="landscape" :reactive="reactive"></v-date-picker>
+            <v-date-picker
+              v-model="picker"
+              :landscape="landscape"
+              :reactive="reactive">
+            </v-date-picker>
           </v-card-text>
         </v-card>
       </v-flex>
@@ -24,13 +28,13 @@
 
 <script>
 export default {
-  name: "DatePicker",
+  name: 'DatePicker',
   data() {
     return {
       picker: null,
       landscape: false,
-      reactive: false
+      reactive: false,
     };
-  }
+  },
 };
 </script>

@@ -11,13 +11,13 @@
 </template>
 
 <script>
-import DatePicker from "./date-picker.vue";
+import DatePicker from './date-picker';
 
 export default {
-  name: "VuetifyApp",
+  name: 'VuetifyApp',
   components: {
-    DatePicker
-  }
+    DatePicker,
+  },
 };
 </script>
 

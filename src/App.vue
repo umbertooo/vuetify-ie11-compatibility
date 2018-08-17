@@ -13,13 +13,13 @@
 </template>
 
 <script>
-import VuetifyApp from "./components/vuetify-app.vue";
+import VuetifyApp from './components/vuetify-app';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    VuetifyApp
-  }
+    VuetifyApp,
+  },
 };
 </script>
 
